@@ -39,7 +39,7 @@ export default function Accordian() {
                                 <h3>{dataitem.question}</h3>
                                 <span>+</span>
                             </div>
-                            {enableMultiSelection
+                            {enableMultiSelection 
                                ? multiple.indexOf(dataitem.id) !== -1 && (
                                   <div className="content">{dataitem.answer}</div>
                                )

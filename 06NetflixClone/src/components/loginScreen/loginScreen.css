@@ -59,7 +59,7 @@
     padding: 10px;
     outline-width: 0;
     height: 30px;
-    width: 30%;
+    width: 50%;
     border: none;
     max-width: 600px;
 }
@@ -75,9 +75,10 @@
 }
 
 .loginScreen_body {
+    /* background-color: red; */
     position: absolute;
     top: 30%;
-    margin-left: auto;
+    margin-left: 14%;
     margin-right: auto;
     text-align: center;
     z-index: 1;

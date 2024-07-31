@@ -1,3 +1,5 @@
+import firebase from 'firebase';
+
 const firebaseConfig = {
     apiKey: "AIzaSyA5pAXC60YpcBpeTZbAwwPbqOmDKrGQmck",
     authDomain: "nextflix-clone-de2c4.firebaseapp.com",
@@ -5,4 +7,11 @@ const firebaseConfig = {
     storageBucket: "nextflix-clone-de2c4.appspot.com",
     messagingSenderId: "355640530249",
     appId: "1:355640530249:web:96893d1b8cc3fd01d97698"
-  };
+};
+
+const firebase  = firebase.initializeApp(firebaseConfig);
+const db = firebase.firebase();
+const auth = firebase.auth();
+
+export { auth };
+export default db;

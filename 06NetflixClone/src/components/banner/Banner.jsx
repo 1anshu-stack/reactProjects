@@ -1,10 +1,11 @@
 import {useState, useEffect } from "react"
 import axios from "../axios.js"
-import "./banner.css"
 import requests from "../Requests.js"
+import "./banner.css"
 
 function Banner() {
     const [movie, setMovie] = useState([])
+    
     useEffect(()=>{
         async function fetchdata(){
             const request = await axios.get(requests.fetchNetflixOrginals);

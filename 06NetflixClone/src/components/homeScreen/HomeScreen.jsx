@@ -13,7 +13,7 @@ function HomeScreen() {
             fetchUrl={requests.fetchNetflixOrginals}
             isLargeRow
         />
-        <Row 
+        {/* <Row 
             title='Trending Now'
             fetchUrl={requests.fetchTrending}
         />
@@ -40,7 +40,7 @@ function HomeScreen() {
         <Row 
             title='Documentaries'
             fetchUrl={requests.fetchDocumentaries}
-        />
+        /> */}
         </>
     )
 }

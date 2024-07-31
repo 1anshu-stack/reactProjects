@@ -2,3 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
+/* *::-webkit-scrollbar{
+    display: none;
+} */
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #000;
+}

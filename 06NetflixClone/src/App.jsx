@@ -12,10 +12,12 @@ import "./app.css"
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { login, logout, selectUser } from "./features/userSlice";
+import { useNavigate } from 'react-router-dom';
 
 function App() {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
+  // const navigation = useNavigate()
 
   useEffect(()=>{
     const unsubscribe = onAuthStateChanged(auth, 

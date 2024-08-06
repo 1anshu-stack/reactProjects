@@ -8,7 +8,7 @@ function Nav(){
             <div>
                 <img src="https://github.com/anshuopinion/React-10-Projects/blob/project-1/project-1/public/images/brand_logo.png?raw=true" alt="" srcset="" />
             </div>
-            <div className="flex gap-5 text-lg font-bold mt-2">
+            <div className="flex gap-5 text-lg font-bold mt-2 text-white">
                 <div className="cursor-pointer underline underline-offset-8">Menu</div>
                 <div className="cursor-pointer" >Location</div>
                 <div className="cursor-pointer">About</div>
